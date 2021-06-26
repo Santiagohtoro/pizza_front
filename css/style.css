@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+header{
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+h1{
+    padding: 10px;
+    color: white;
+}
+
+#rojo{
+    color: #FC200C;
+}
+
+#verde{
+    color: #39B24A;
+}
+
+#superior{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+li{
+    padding: 0px 20px;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 77.5px;
+    margin-bottom: 77.5px;
+}
+
+.Entregas{
+    background-image: url(../img/delivery.jpg);
+    height: 350px;
+    width: 490px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px gray;
+    margin-right: 50px;
+}
+
+h2{
+    margin: 20px;
+    color:#FC200C ;
+    font-weight: bold;
+}
+
+#blanco{
+    color: white;
+}
+
+.Ranking{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 490px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px gray;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+#podio{
+    display: flex;
+    justify-content: center;
+}
+
+.carta{
+    display: flex;
+    align-items: center;
+    margin: 25px 100px;
+}
+
+#top{
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+ol{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+}
+
+footer{
+    height: 150px;
+    background-color: #222222;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.inferior{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.final{
+    margin-right: 80px;
+}
